@@ -1,0 +1,1100 @@
+[
+  {
+    "source": "^I click on buzzboard button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to see the list of invitees$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:10",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Send message button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter the subject$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:24",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on send button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:31",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to see the message in sent items$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:38",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on message board tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:46",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter the message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:54",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to pin the message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:62",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on acccept button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:70",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to upload the file$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:78",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on gallery tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:86",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on acccept terms button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:94",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to upload and share the file$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/buzz_steps.rb:98",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Dashboard page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on create event button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see create event page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Create Event Account page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Save and Continue button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:21",
+    "steps": [
+      {
+        "name": "I click on Save and Continue button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see organizer field auto populated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:34",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill event title with \"(.*?)\" and welcome message with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill event type with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:48",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select start and end date$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:56",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should successfully complete create process$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:64",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on DONE after selecting Venue$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:82",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in food page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/create_event_steps.rb:91",
+    "steps": [
+      {
+        "name": "I should be in food page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on edit button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/edit_cards_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change the name$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/edit_cards_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to update it successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/edit_cards_steps.rb:19",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on make default button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/edit_cards_steps.rb:25",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on delete button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/edit_cards_steps.rb:31",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Forgot password link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/forgot_password_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be Forgot Password Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/forgot_password_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter email address$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/forgot_password_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on SEND MY PASSWORD button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/forgot_password_steps.rb:19",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Log Out option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/forgot_password_steps.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select My Credit cards option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_cards_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in My cards Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_cards_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on add new button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_cards_steps.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter all valid data$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_cards_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to save it successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_cards_steps.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to see error message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_cards_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Manage Contacts option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Manage Contacts Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Add icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Adding New Contact pop up$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:20",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I hit SUBMIT button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see form with error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:34",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter valid contact details$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:40",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter existing contact details$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:49",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see flash alert \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:58",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select contact$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:65",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on delete icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:72",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the contact should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:78",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on edit icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:85",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a contact$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:91",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the contact to new group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:97",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the contact added to group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:115",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on MY CONTACTS tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_contacts_steps.rb:129",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on My account tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select My Profile option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Profile Settings Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Edit icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:20",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Edit Profile Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Save button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:35",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I hit save after clearing data from all the mandatory fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see error messages higlighting error fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:48",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on CANCEL$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:61",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I update fields with valid information$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:68",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I check billing address checkbox$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:80",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see billing address autopopulated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:88",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see flash notice \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:98",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Account Settings tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:105",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I update my passoword under change password tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:111",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I update security questions$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:128",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I update user PIN$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/my_profile_steps.rb:144",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on LOGIN tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:2",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Submit button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:8",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see error \"(.*?)\" and \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter invalid email and password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:36",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:50",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter valid userid and password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:57",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter valid email and password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:72",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see message \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_in_steps.rb:86",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Home page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:3",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on SIGN UP$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should fill the data on sign up form$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on CREATE ACCOUNT$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:28",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to create an account succesfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:34",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Create Account page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:40",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Create Account button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see mandatory fields highlighted with proper error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:53",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill First Name with \"(.*?)\" Last Name with \"(.*?)\" Username with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:60",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill Email with \"(.*?)\" Mobile number with \"(.*?)\" Password with\"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:68",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see these fields highlighted with proper error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:77",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill Email field with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:85",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill mobile number field with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:91",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill Userid field with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:97",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see error message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:104",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill Password field with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:111",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill Confirm Password with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:117",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see proper error message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Host/sign_up_steps.rb:124",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on SP Dashboard page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Select Manage Branch option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Branch page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:12",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Branch Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:18",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new branch$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:22",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the branch added in the list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:39",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I try to add a existing branch$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Branch Name already in use$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:55",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Select Manage Catalogue option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:64",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Manage Catalogue page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:71",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Manage Catalogue Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:77",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new location with delivery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:81",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new location without delivery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:91",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the location added$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:103",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the location added in the list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_manage_branch_steps.rb:110",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on SP Home page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in SIGN UP page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill Profile Details$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Company Details Screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Sign Up page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:33",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Next button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:37",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see mandatory fields highlighted with error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:43",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill FirstName LastName and UserName$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:50",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill EmailAddress MobileNumber and Password$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:59",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see these fields highlighted with error messages$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:68",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill Email mobile number and Userid field$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:75",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see errors$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:86",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter company name brand and website$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:92",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter Registration id and phoneno$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:100",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be in Attachments Screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:113",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on CREATE ACCOUNT button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:120",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I attach Proof of registration$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:127",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I UPLOAD the file$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/Service_Provider/sp_sign_up_steps.rb:134",
+    "steps": [
+
+    ]
+  }
+]
