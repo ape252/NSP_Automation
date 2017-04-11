@@ -26,7 +26,29 @@ Scenario: session timeout
 Given I am on NSP website
 When I enter all my credentials and click on sign in button
 And I enter the application
-And I be inactive for more than 15mins
+And I be inactive for more than fifteen mins
 Then I should be logged out of the system
 
+@lock
+Scenario: User attempts multiple failed logins
+Given the user is on NSP website
+When the user enters invalid email ID/Password for 3rd time
+And he clicks on login button
+Then it should show a flash message
 
+Given the user is on NSP website
+When the user enters invalid email ID/Password for 4th time
+And he clicks on login button
+Then it should show a flash message
+
+Given the user is on NSP website
+When the user enters invalid email ID/Password for 5th time
+And he clicks on login button
+Then it should show a message 
+
+@logout
+Scenario: User should logout of the system
+Given I am on NSP website
+When I enter all my credentials and click on sign in button
+And I click on logout button
+Then I should be logged out from the application

@@ -2,15 +2,13 @@ urls:
    Homepage: "qa-nsp.qwinix.io"
 
 details: 
-  uname: "suhas@yopmail.com"
+  uname: "suchi@yopmail.com"
   pwd: "Qwinix123"
-  fname: "Apeksha"
-  lname: "Hemanth"
+  reg_email: "ap2@yopmail.com"
   zip: "10101"
-  emailid: "apekshaa@yopmail.com"
-  pwd: "Qwinix123"
-  pwd_conf: "Qwinix123"
-  invalid_email: "test@yopmail.com"
-  invalid_pwd: "qwinix123"
-  confirm_email: "suhasv@yopmail.com"
-  
+  invalid_email: "vij@yopmail.com"
+  invalid_pwd: "qwinix12"
+  lock_email: "prakash@yopmail.com"
+  confirm_email: "vinod@yopmail.com"
+  reg_invalid_email: "ap@gmail"
+  reg_invlaid_zip: "1010101"

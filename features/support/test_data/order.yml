@@ -1,2 +1,4 @@
 features/register.feature: 899
-features/login.feature: 898
+features/login.feature: 800
+features/forgot_pass.feature: 700
+
