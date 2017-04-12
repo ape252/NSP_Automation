@@ -4,58 +4,41 @@
     I want to register on NSP, 
     so that I can make some investments
 
-@valid
+@rvalid
 Scenario: When all valid data is given
 Given the user enters all valid credentials
  When user submits the request
- Then user sees "Please check your email (email id), to complete your registration"
+ Then user see the success message
 
-@invalid_email
+@invalid_remail
 Scenario: When user gives an invalid email ID
 Given the user has entered an invalid(wrong format) email id
  When user submits request
- Then user sees "Please enter a valid email id"
+ Then user see the error message in email field
 
 @invalid_zip
 Scenario: When user gives an invalid Zipcode
 Given the investor enters an invalid zip code
- When user submits request
- Then user sees "Invalid zip code"
+When user submits request
+Then user see error message in zip field
 
 @blank
 Scenario: When user gives blank data
 Given the user misses out any of the fields 
 And clicks on register button
-Then it should show message “this field is mandatory” for all the blank fields  
-
-
+Then user should see error message
 
 @pwd
-Scenario: When Password and confirm password does not match
-Given the User enters a Password in “password field”
-And he then he enters a different password in “Confirm password” field
-Then User should see the message “Password  and confirm password does not match” 
+Scenario: To check for password requirement
+Given the user enters all credentials
+When the user submits the request
+And the password given does not meet the requirement
+Then it should show the message
 
-
-
-# Scenario 7:  When the user clicks on confirmation link for first time
-# Given the confirmation link has not expired
-#  When the investor clicks on the registration link 
-# Then investor is asked to log into the system
-
-
-
-# Scenario 8: When the token is expired
-# Given the confirmation link has expired
-#  When the investor clicks on the registration link after 24 hours
-#  And it should show the message “This link has been expired. Please restart the registration process”
-#  Then the user data should be flushed out of the Database
-
-
-# Scenario 9 : When the user clicks on token for 2nd time
-# Given the user clicks on the confirmation link for the second time
-# Then it show the message “Link has been expired”
-
-
+@reg_email
+Scenario: To check for registered email
+Given the user enters an email id which was already registered
+When the user submits the request
+Then it show the flash message
 
 
