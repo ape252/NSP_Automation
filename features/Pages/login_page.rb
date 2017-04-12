@@ -73,8 +73,6 @@ def lock_user_fourth
       else
 		raise "not successful"
 	end
-
-
 end
 
 end
