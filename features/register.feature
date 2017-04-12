@@ -34,3 +34,11 @@ Given the user enters all credentials
 When the user submits the request
 And the password given does not meet the requirement
 Then it should show the message
+
+@reg_email
+Scenario: To check for registered email
+Given the user enters an email id which was already registered
+When the user submits the request
+Then it show the flash message
+
+

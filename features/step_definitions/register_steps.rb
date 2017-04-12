@@ -12,7 +12,6 @@ end
 
 When (/^user submits the request$/) do
 	on Signup_page do |ele|
-	sleep 10
    	ele.sub_b
  end
 end
@@ -40,9 +39,9 @@ When /^user submits request$/ do
  end
 
  Then /^user see the error message in email field$/ do
-   on Signup_page do |ele|
-      ele.reg_invalid_email
-   end
+   # on Signup_page do |ele|
+   #    ele.invalid_email
+   # end
 end
 
 
@@ -61,9 +60,9 @@ end
 end
 
 Then /^user see error message in zip field$/ do
-   on Signup_page do |ele|
-      ele.reg_invalid_zip
-end
+#    on Signup_page do |ele|
+#       ele.invalid_zip
+# end
 end
 
 ###############blank################################
@@ -71,8 +70,8 @@ Given /^the user misses out any of the fields$/ do
    visit Signin_page
    on Signup_page do |ele|
       ele.link
-   ele.email=Common.get_details("reg_email")
-   @browser.input(:id,"email_register").clear
+   # ele.email=Common.get_details("reg_email")
+   # @browser.input(:id,"email_register").clear
   end
 end
 
@@ -84,9 +83,9 @@ Given /^clicks on register button$/ do
 end
 
 Then /^user should see error message$/ do
-   on Signup_page do |ele|
-      ele.blank
-   end
+   # on Signup_page do |ele|
+   #    ele.blank
+   # end
 
 end
 
@@ -114,9 +113,25 @@ When /^the password given does not meet the requirement$/ do
 end
 
 Then /^it should show the message$/ do
-   on Signup_page do |ele|
-      ele.password_req
-   end
+   # on Signup_page do |ele|
+   #    ele.password_req
+   # end
 end
+
+####################################registered email######################
+Given /^the user enters an email id which was already registered$/ do
+   visit Signin_page
+   on Signup_page do |ele|
+      ele.link
+    ele.email=Common.get_details("old_email")
+      ele.zipcode=Common.get_details("zip")
+      ele.password=Common.get_details("pwd")
+  end
+ 
+end
+
+Then /^it show the flash message$/ do
+  
+  end
 
 
