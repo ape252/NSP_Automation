@@ -61,7 +61,7 @@ When /^I enter the application$/ do
  end
 end
 
-When /^I be inactive for more than fifteen mins$/ do |arg1|
+When /^I be inactive for more than fifteen mins$/ do
   on Signin_page do |page|
   page.session_time_out
 end
@@ -102,6 +102,7 @@ Then /^it should show a flash message$/ do
  end
 
 When /^the user enters invalid email ID\/Password for (\d+)th time$/ do |arg1|
+  visit Signin_page
   on Signin_page do |page|
     sleep 2
   page.username=Common.get_details("lock_email")
@@ -117,7 +118,10 @@ end
 
 ##########################logout########################################
 When /^I click on logout button$/ do
-  
+   on Signin_page do |page|
+    page.log_out
+
+  end
 end
 
 Then /^I should be logged out from the application$/ do

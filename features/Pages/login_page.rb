@@ -74,6 +74,11 @@ def lock_user_fourth
 		raise "not successful"
 	end
 end
+###################################logout###############################
+ 
+ def log_out
+  @browser.link(:xpath,"//div[1]/aside[1]/div/nav/ul/li[12]/a").click
+ end
 
 end
 
