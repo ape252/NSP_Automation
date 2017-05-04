@@ -3,7 +3,7 @@ Feature: As an investor
 I want to add a funding source by providing the bank details
 So that I can use it to purchase a note
 
-@l_valid
+@unlisted_valid
 Scenario: valid credentials
 Given I am on add funding source page
 When I dont find the required bank in the list

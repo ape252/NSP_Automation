@@ -8,9 +8,6 @@ module Common
  end
 
 
-  
-  # def Common.get_buzzboard_page route
-  #   YAML.load_file("#{TEST_DATA_DIR}/test_data.yml")["buzz_page"][route]
-  # end
+ 
 
 end

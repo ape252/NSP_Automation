@@ -17,7 +17,19 @@ class Signup_page
  	@browser.button(:text, "Create Account").click
  end
 
- ############################Invalid email###############
+
+
+ ########################Valid#################################
+def valid 
+	ele =@browser.p(:xpath, "/div[1]/div/flash-message[3]/div/div/span/span").text
+    if ele.include? "An email with a confirmation link has been sent to your email address. To complete your registration, please open the link."
+    	p ele
+    else
+    	raise "not successful"
+    end
+end
+
+ ###########################Invalid email###############
 
  def invalid_email
 	ele = @browser.p(:xpath, "//div/div/div/form/div[1]/span[1]").text
@@ -27,7 +39,7 @@ class Signup_page
 		raise "not successful"
 	end
 end
-##########################password######################
+#########################password######################
 def password_req
 	ele = @browser.span(:xpath, "//div[1]/div/div/div/form/div[3]/span[2]").text
     sleep 2
@@ -37,7 +49,7 @@ def password_req
     	raise "not successful"
     end
 end
-######################blank#################################
+#####################blank#################################
  def blank
  	ele =@browser.p(:xpath, "//div[1]/div/div/div/form/div[2]/span[1]").text
 
@@ -52,13 +64,23 @@ end
  ####################invalid zip##################################
  def invalid_zip
  	ele =@browser.p(:xpath, "//div[1]/div/div/div/form/div[2]/span[2]").text
- 	slep 2
+ 	sleep 2
  	if ele.include? "Input should match '0-9' and 5 or 9 in length"
  	   p ele
  	else
  		raise "not successful"
  	end
  end
+
+########################registered email###############################
+def reg_email
+	ele =@browser.p(:xpath, "//div[1]/div/flash-message/div/div/span/span")
+	if ele.include? "This email address is already registered with us, please login to access your account or use a different email id to register with us."
+      p ele
+    else
+    	raise "not successful"
+    end
+end
 
 
 

@@ -1,5 +1,8 @@
+features/fund_listed_bank.feature: 899
 features/register.feature: 750
-features/login.feature: 899
+features/login.feature: 850
 features/forgot_pass.feature: 700
 features/personal.feature: 800
+features/fund_unlisted_bank.feature: 830
+
 

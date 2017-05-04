@@ -2,9 +2,9 @@ urls:
    Homepage: "qa-nsp.qwinix.io"
 
 details: 
-  uname: "prakash@yopmail.com"
+  uname: "user7@yopmail.com"
   pwd: "Qwinix123"
-  reg_email: "ap9@yopmail.com"
+  reg_email: "apeksha23@yopmail.com"
   old_email: "ap5@yopmail.com"
   zip: "10101"
   invalid_email: "vij@yopmail.com"
@@ -20,6 +20,11 @@ details:
   dob: "12121993"
   phone: "313132576"
   alternate: "1234567890"
-  add_1 : "po box 1234"
+  add_1 : "qw"
   add_2: "5th avennue"
+  bank_id: "123456789"
+  bank_pwd: "qwerty"
+  bank_repwd: "qwerty"
+  q1: "asdf"
+  q2: "zxcv"
 

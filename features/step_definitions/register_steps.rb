@@ -17,6 +17,9 @@ When (/^user submits the request$/) do
 end
 
 Then /^user see the success message$/ do
+   on Signup_page do |ele|
+      ele.valid
+ end
   
 end
 
@@ -131,6 +134,9 @@ Given /^the user enters an email id which was already registered$/ do
 end
 
 Then /^it show the flash message$/ do
+   on Signup_page do |ele|
+      ele.reg_email
+   end
   
   end
 
